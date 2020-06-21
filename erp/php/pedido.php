@@ -16,4 +16,5 @@ public function eliminar($id){
 		$this->sentencia = "DELETE FROM pedido WHERE IDpedido=$id";
 		$this->ejecutarSentencia();
 }
+}
 ?>	

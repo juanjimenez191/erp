@@ -15,5 +15,6 @@ return $this->obtenerSentencia();
 public function eliminar($id){
 		$this->sentencia = "DELETE FROM proveedor WHERE IDproveedor=$id";
 		$this->ejecutarSentencia();
+	}
 }
 ?>	

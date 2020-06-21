@@ -16,4 +16,5 @@ public function eliminar($id){
 		$this->sentencia = "DELETE FROM proyecto WHERE IDproyecto=$id";
 		$this->ejecutarSentencia();
 }
+}
 ?>	

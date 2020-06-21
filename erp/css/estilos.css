@@ -5,6 +5,7 @@
 }
 nav{
 	display: inline-block;
+	vertical-align: top;
 	width: 30%;
 }
 nav ul{
@@ -21,6 +22,7 @@ nav ul a{
 }
 section#principal{
 	display: inline-block;
+	vertical-align: top;
 	width: 65%;
 }
 form{
@@ -36,7 +38,7 @@ form input{
 	font-size: 1em;
 	margin: 0.5em auto;
 }
-form input[type="submit"]{
+form input[type="submit"],input[type="button"]{
 	background-color: steelblue;
 	color: white;
 	padding: 0.2em;
@@ -56,4 +58,13 @@ table tr:nth-child(odd){
 }
 table td{
 	padding: 0.2em;
+}
+.eliminar{
+	border: 0;
+	padding: 0;
+}
+
+#myChart{
+	vertical-align: top;
+	width: 100%;
 }
